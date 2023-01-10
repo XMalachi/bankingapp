@@ -1,0 +1,5 @@
+colour code
+.. midnight blue: rgb(20, 93, 160)
+.. dark blue rgb(12, 45, 72)
+.. plain blue rgb(46, 139, 192)
+.. baby blue rgb(177, 212, 224)
