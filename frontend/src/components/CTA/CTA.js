@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import ButtonS from "../Button/ButtonS";
+import ButtonP from "../Button/ButtonP";
 import "./CTA.css";
 
 function CTA({ images }) {
@@ -56,7 +58,14 @@ function CTA({ images }) {
                 <div className="line"/>
                 <h2 className="card_header ">{image.header}</h2>
                 <p className="card_desc">{image.desc}</p>
-
+                <div>
+                  <ButtonS text="Consultation" />
+                      
+                  <ButtonP text="Learn More" />
+                     
+                
+                </div>
+                
               </div>
             </div>
           );
