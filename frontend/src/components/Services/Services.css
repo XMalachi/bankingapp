@@ -5,8 +5,8 @@
 
 .line{
   background-color: rgb(20, 93, 160);
-  height: 10px;
-  width: 30%;
+  height: 3px;
+  width: 10%;
 }
 
 .card_title {
@@ -62,7 +62,11 @@
     margin: 0 20px 0 0;
 
   }
-  
+  .line{
+    background-color: rgb(20, 93, 160);
+    height: 3px;
+    width: 10%;
+  }
   
   .sliderIcon{
     font-size: 3rem;

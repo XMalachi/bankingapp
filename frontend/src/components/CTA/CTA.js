@@ -54,7 +54,7 @@ function CTA({ images }) {
             >
               <img className="card_image" src={image.image} alt="" />
               <div className="card_overlay">
-                <h2 className="card_title ">{image.title}</h2>
+                <h2 className="card_title_cta">{image.title}</h2>
                 <div className="line"/>
                 <h2 className="card_header ">{image.header}</h2>
                 <p className="card_desc">{image.desc}</p>

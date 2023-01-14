@@ -10,7 +10,7 @@ const navigation = [
   { name: 'About Us', href: '/', current: false, subText: "Know More About Us" },
   { name: 'Services', href: '/', current: false, subText: "Valuable Services" },
   { name: 'Wealth Mgt', href: '/', current: false, subText: "Wealth Management" },
-  { name: 'Online Banking', href: '/', current: false, subText: "Online Banking" },
+  { name: 'Online Banking', href: '/customer', current: false, subText: "Online Banking" },
   { name: 'Contact', href: '/', current: false, subText: "Get Touch With Us" },
 ]
 

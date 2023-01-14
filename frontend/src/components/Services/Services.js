@@ -10,11 +10,11 @@ class Services extends Component {
     var settings = {
         autoplay: true,
         dots: true,
-        speed: 500,
+        speed: 2000,
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide: 0,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 4000,
         cssEase: "linear",
         pauseOnHover: true,
         infinite: true,
@@ -47,7 +47,7 @@ class Services extends Component {
       ]
     };
     return (
-      <div>
+      <div className="mt-20">
         <div className="eastDale">
             <h2 className="card_title ">Expert Services We Offer</h2>
             <div className="line"/>
